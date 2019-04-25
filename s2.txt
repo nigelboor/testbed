@@ -1,0 +1,23 @@
+<script language="JavaScript" type="text/JavaScript">
+/* <![CDATA[ */
+var varlocation = document.location.href;
+var varclientpos = varlocation.indexOf("frmClient=");
+var varclientstart = varclientpos + 10;
+var varclientend = varlocation.indexOf('&',varclientstart);
+var varclientvalue = varlocation.substring(varclientstart,varclientend);
+var varitempos = varlocation.indexOf("frmItemID=");
+var varitemstart = varitempos + 10;
+var varitemend = varlocation.indexOf('&',varitemstart);
+var varitemvalue = varlocation.substring(varitemstart,varitemend);
+var varsharedpos = varlocation.indexOf("frmShared=");
+var varsharedvalue = varlocation.charAt(varsharedpos + 10);
+
+document.write('<script language="JavaScript" type="text/JavaScript" ');
+document.write('src="\/\/broadcast.tslinkonline.co.uk\/story.js?');
+document.write('frmClient=' + varclientvalue);
+document.write('&frmItemID=' + varitemvalue);
+document.write('&frmShared=' + varsharedvalue + '"');
+document.write(' type="text\/javascript">');
+document.write('<\/script>'); /* ]]> */
+</script>
+<noscript><p>You must have JavaScript enabled on your web browser to view this content. You may be able to locate advice that is not dependent on the presence of JavaScript on the <a href="http://www.adviceguide.org.uk/">Citizens Advice website</a>.</p></noscript>

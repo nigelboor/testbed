@@ -1,0 +1,22 @@
+body {
+
+}
+
+/* $name='Button link' */
+.buttonlink {
+              background: #009999; /* matches left menu hover colour – would need adjustment for SCM and sub-site applications*/
+              display: inline-block;
+              clear: both; /* intended to stand alone */
+              margin: 4px;
+              padding: 4px 16px;
+              border: #888888 outset 2px; /* button effect */
+              border-radius: 8px; /* ignores IE8 */
+}
+.buttonlink:hover {
+              background: #00aaaa; /* slight highlight on hover */
+}
+p.buttonlink a {
+              color: #ffffff; /* needed to override standard link colour */
+              font-size: 1.2em; /* for emphasis */
+              text-decoration: none;
+}

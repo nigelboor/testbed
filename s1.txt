@@ -1,0 +1,26 @@
+<script language="JavaScript" type="text/JavaScript">
+var varclient='9143C1A9-BC00-CBBA-86F2DD7AE7B212E8';
+var vardocuments=30;
+var vardisplayitem='show-item.htm';
+document.write('<script language="JavaScript" type="text/JavaScript" ');
+document.write('src="\/\/broadcast.tslinkonline.co.uk\/index.js?');
+document.write('frmClient=' + varclient);
+document.write('&frmItemPage=' + vardisplayitem);
+document.write('&frmDocuments=' + vardocuments + '"');
+document.write('type="text\/javascript">');
+document.write('<\/script>');
+</script>
+
+
+"<script type=\"text/JavaScript\">
++ var varclient=\'9143C1A9-BC00-CBBA-86F2DD7AE7B212E8\'\;
++ var vardocuments=30\;
++ var vardisplayitem=\'show-item.htm\'\;
++ document.write(\'<script type=\"text/JavaScript\" \')\;
++ document.write(\'src=\"\\/\\/broadcast.tslinkonline.co.uk\\/index.js?\')\;
++ document.write(\'frmClient=\' + varclient)\;
++ document.write(\'&frmItemPage=\' + vardisplayitem)\;
++ document.write(\'&frmDocuments=\' + vardocuments + \'\"\');
++ document.write(\'type="text\\/javascript\">\')\;
++ document.write(\'<\\/script>\')\;
++ </script>"

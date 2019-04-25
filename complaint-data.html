@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>complaint-data</title>
+		<meta name="description" content="">
+		<meta name="author" content="nboor">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<style type="text/css">
+			table {
+				width: 98%;
+			}
+			td {
+				font-family: Arial, Helvetica, sans-serif;
+				border-style: solid;
+				border-width: 0 1px 1px 0;
+				padding: 4px;
+				text-align: left; 
+				vertical-align: top;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1>Complaint Data</h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+				</p>
+			</nav>
+
+			<div>
+				<p>
+					Tokens available:
+				</p>
+				<ul>
+					<li>
+						{summary_fields},
+					</li>
+					<li>
+						{review_fields},
+					</li>
+					<li>
+						{date_created},
+					</li>
+					<li>
+						{status},
+					</li>
+					<li>
+						{url},
+					</li>
+					<li>
+						{authurl},
+					</li>
+					<li>
+						{Title},
+					</li>
+					<li>
+						{FirstName},
+					</li>
+					<li>
+						{Surname},
+					</li>
+					<li>
+						{HomePhone},
+					</li>
+					<li>
+						{Behalf},
+					</li>
+					<li>
+						{ReportingCapacity},
+					</li>
+					<li>
+						{Role},
+					</li>
+					<li>
+						{ContactMethod},
+					</li>
+					<li>
+						{Email},
+					</li>
+					<li>
+						{HouseName},
+					</li>
+					<li>
+						{StreetName},
+					</li>
+					<li>
+						{VillageName},
+					</li>
+					<li>
+						{TownName},
+					</li>
+					<li>
+						{Postcode},
+					</li>
+					<li>
+						{Equalities},
+					</li>
+					<li>
+						{fieldteNa8SYWY2Y},
+					</li>
+					<li>
+						{fieldteNa8SYWY2Y/gender},
+					</li>
+					<li>
+						{fieldteNa8SYWY2Y/age_group},
+					</li>
+					<li>
+						{fieldteNa8SYWY2Y/consider_disabled},
+					</li>
+					<li>
+						{fieldteNa8SYWY2Y/disability},
+					</li>
+					<li>
+						{fieldteNa8SYWY2Y/cultural_origin},
+					</li>
+					<li>
+						{CommentType},
+					</li>
+					<li>
+						{Complaint},
+					</li>
+					<li>
+						{Action},
+					</li>
+					<li>
+						{Before},
+					</li>
+					<li>
+						{CaseNumber},
+					</li>
+					<li>
+						{form},
+					</li>
+					<li>
+						{Salt2},
+					</li>
+					<li>
+						{reference},
+					</li>
+					<li>
+						{form_id},
+					</li>
+					<li>
+						{form_shortname},
+					</li>
+					<li>
+						{users_ip},
+					</li>
+					<li>
+						{fullname},
+					</li>
+					<li>
+						{GCC_FromEmail},
+					</li>
+					<li>
+						{Salt1},
+					</li>
+					<li>
+						{form_status},
+					</li>
+					<li>
+						{username},
+					</li>
+					<li>
+						{GCC_URL},
+					</li>
+					<li>
+						{form_name},
+					</li>
+					<li>
+						{allfields},
+					</li>
+					<li>
+						{email}
+					</li>
+				</ul>
+				<table>
+					<tbody>
+						<colgroup>
+							<col style="width: 30%" />
+							<col style="width: 70%" />
+						</colgroup>
+						<tr>
+							<td colspan="2" rowspan="1"><h2 style="padding-bottom: 0px;">Your details (person completing this form)</h2></td>
+						</tr>
+						<tr>
+							<td> Title </td>
+							<td> {Title} </td>
+						</tr>
+						<tr>
+							<td> First Name </td>
+							<td> {FirstName} </td>
+						</tr>
+						<tr>
+							<td> Surname </td>
+							<td> {Surname} </td>
+						</tr>
+						<tr>
+							<td> Are you completing this form on behalf of somebody else? </td>
+							<td> {Behalf} </td>
+						</tr>
+						<tr>
+							<td> In what capacity does the person you are completing this form for wish to contact us? </td>
+							<td> {ReportingCapacity} </td>
+						</tr>
+						<tr>
+							<td> In what capacity are you contacting us? </td>
+							<td> {Role} </td>
+						</tr>
+						<tr>
+							<td> Preferred method of contact </td>
+							<td> {ContactMethod} </td>
+						</tr>
+						<tr>
+							<td> E-mail address </td>
+							<td> {Email} </td>
+						</tr>
+						<tr>
+							<td> Phone Number </td>
+							<td> {HomePhone} </td>
+						</tr>
+						<tr>
+							<td colspan="1"
+							rowspan="5">Address</td>
+							<td> {HouseName} </td>
+						</tr>
+						<tr>
+							<td> {StreetName} </td>
+						</tr>
+						<tr>
+							<td> {VillageName} </td>
+						</tr>
+						<tr>
+							<td> {TownName} </td>
+						</tr>
+						<tr>
+							<td> {Postcode} </td>
+						</tr>
+						<tr>
+							<td> Would you like to complete our equalities monitoring questions? </td>
+							<td> {Equalities} </td>
+						</tr>
+						<tr>
+							<td colspan="2" rowspan="1"><h2 style="padding-bottom: 0pt;">Your feedback</h2></td>
+						</tr>
+						<tr>
+							<td> Would you like to: </td>
+							<td> {CommentType} </td>
+						</tr>
+						<tr>
+							<td> Please give details </td>
+							<td> {Complaint} </td>
+						</tr>
+						<tr>
+							<td> What do you think we should do to put things right? </td>
+							<td> {Action} </td>
+						</tr>
+						<tr>
+							<td> Have you told us about this before? </td>
+							<td> {Before} </td>
+						</tr>
+						<tr>
+							<td> Please enter the case number, the name of the person that you have been dealing or and / or the date that you notified us if you know this </td>
+							<td> {CaseNumber} </td>
+						</tr>
+						<tr>
+							<td colspan="2" rowspan="1"><h2 style="padding-bottom: 0pt;">Equalities monitoring</h2></td>
+						</tr>
+						<tr>
+							<td> Please can you tell us your gender? </td>
+							<td> {fieldteNa8SYWY2Y/gender} </td>
+						</tr>
+						<tr>
+							<td> Which of the following age groups do you fall into? </td>
+							<td> {fieldteNa8SYWY2Y/age_group} </td>
+						</tr>
+						<tr>
+							<td> Do you consider yourself to be disabled? </td>
+							<td> {fieldteNa8SYWY2Y/consider_disabled} </td>
+						</tr>
+						<tr>
+							<td> Please tick the relevant disability boxes, if appropriate </td>
+							<td> {fieldteNa8SYWY2Y/disability} </td>
+						</tr>
+						<tr>
+							<td> How would you describe your ethnic and cultural origin? </td>
+							<td> {fieldteNa8SYWY2Y/cultural_origin} </td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Copyright  by nboor
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

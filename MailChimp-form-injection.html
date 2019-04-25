@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>MailChimp-form-injection</title>
+    <meta name="description" content="">
+    <meta name="author" content="nboor">
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  </head>
+
+  <body>
+    <header>
+      <h1>MailChimp-form-injection</h1>
+    </header>
+
+    <p id="formDiv">
+      You must have JavaScript enabled on your web browser to view this content. You may be able to locate advice that is not dependent on the presence of JavaScript on the <a href="http://www.adviceguide.org.uk/">Citizens Advice website</a>.
+    </p>
+    <script>
+      /* <![CDATA[ */
+      const formConst = "<script language=\"JavaScript\" type=\"text/JavaScript\">\n/* <![CDATA[ */\nvar varclient=\'9143C1A9-BC00-CBBA-86F2DD7AE7B212E8\';\nvar vardocuments=30;\nvar vardisplayitem=\'show-item.htm\';\n\ndocument.write(\'<script language=\"JavaScript\" type=\"text/JavaScript\" \');\ndocument.write(\'src=\"\\/\\/broadcast.tslinkonline.co.uk\\/index.js?\');\ndocument.write(\'frmClient=\' + varclient);\ndocument.write(\'\&frmItemPage=\' + vardisplayitem);\ndocument.write(\'\&frmDocuments=\' + vardocuments + \'\"\');\ndocument.write(\'type=\"text\\/javascript\">\');\ndocument.write(\'<\\/script>\');\n/* ]]> */\n";
+      document.getElementById('formDiv').outerHTML = formConst;
+      var varlocation = document.location.href;
+      var varclientpos = varlocation.indexOf("frmClient=");
+      var varclientstart = varclientpos + 10;
+      var varclientend = varlocation.indexOf('&', varclientstart);
+      var varclientvalue = varlocation.substring(varclientstart, varclientend);
+      var varitempos = varlocation.indexOf("frmItemID=");
+      var varitemstart = varitempos + 10;
+      var varitemend = varlocation.indexOf('&', varitemstart);
+      var varitemvalue = varlocation.substring(varitemstart, varitemend);
+      var varsharedpos = varlocation.indexOf("frmShared=");
+      var varsharedvalue = varlocation.charAt(varsharedpos + 10);
+      document.write('<script language="JavaScript" type="text/JavaScript" ');
+      document.write('src="\/\/broadcast.tslinkonline.co.uk\/story.js?');
+      document.write('frmClient=' + varclientvalue);
+      document.write('&frmItemID=' + varitemvalue);
+      document.write('&frmShared=' + varsharedvalue + '"');
+      document.write(' type="text\/javascript">');
+      document.write('<\/script>');
+      /* ]]> */
+    </script>
+  </body>
+</html>

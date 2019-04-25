@@ -1,0 +1,274 @@
+Address	Status-Code	Status-Text	Type	Size	Title	Date	Level	Links Out	Links In	Server	Error	Duration	Charset	Description
+file:///P:/Aptana Studio 3 Workspace/testbed/bus-links.txt	200	ok	text/plain	13379		14.12.2012  14:23:16	0					00:00.000		
+https://ww5.gloucestershire.gov.uk/bustimes/stroud.htm	200	ok	text/html	11453	Stroud	13.04.2012  10:22:31	0	79		GCC Web Server		00:00.016	iso-8859-1	Gloucestershire's Stroudarea timetables
+https://ww5.gloucestershire.gov.uk/bustimes/schools/004mfco.html	200	ok	text/html	16063	OmniTIMES HTML Page	31.05.2011  13:52:28	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/01amf.html	200	ok	text/html	15309	OmniTIMES HTML Page	07.02.2008  12:16:33	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/01bmf.html	200	ok	text/html	14187	OmniTIMES HTML Page	07.02.2008  12:16:33	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/049mf.html	200	ok	text/html	13486	Gloucestershire Timetables	13.11.2012  15:27:49	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/0m1mf.html	200	ok	text/html	13750	OmniTIMES HTML Page	02.05.2008  14:29:40	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/0m3mf.html	200	ok	text/html	17590	OmniTIMES HTML Page	30.01.2009  09:38:28	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/0m5mf.html	200	ok	text/html	11900	Gloucestershire Timetables	13.01.2012  15:52:36	0			GCC Web Server		00:00.000		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/0m6mf.html	200	ok	text/html	23299	OmniTIMES HTML Page	30.01.2009  09:38:26	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/0x3mfd.html	200	ok	text/html	16243	OmniTIMES HTML Page	11.07.2011  08:01:43	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/0x6mfu.html	200	ok	text/html	24841	OmniTIMES HTML Page	10.06.2011  08:49:43	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/0x9mf.html	404	not found					0			GCC Web Server		00:00.032		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/115mf.html	200	ok	text/html	17486	Gloucestershire Timetables	10.09.2012  14:31:11	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/117mf.html	200	ok	text/html	10462	Gloucestershire Timetables	02.10.2012  14:33:09	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/127mf.html	200	ok	text/html	9798	Gloucestershire Timetables	11.11.2011  15:49:47	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/128mf.html	200	ok	text/html	15260	OmniTIMES HTML Page	28.09.2010  15:02:35	0			GCC Web Server		00:00.093		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/129mf.html	200	ok	text/html	16827	OmniTIMES HTML Page	05.05.2011  09:43:15	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/131mf.html	200	ok	text/html	12481	OmniTIMES HTML Page	04.09.2009  14:57:19	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/167mf.html	200	ok	text/html	18697	OmniTIMES HTML Page	04.11.2010  11:31:47	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/16amf.html	200	ok	text/html	11517	Gloucestershire Timetables	31.08.2012  13:42:33	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/22amf.html	200	ok	text/html	9692	Gloucestershire Timetables	13.04.2012  07:29:33	0			GCC Web Server		00:00.015		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/325ba.html	200	ok	text/html	10861	Gloucestershire Timetables	28.09.2012  08:29:16	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/325bb.html	200	ok	text/html	10197	Gloucestershire Timetables	27.09.2012  13:01:38	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/325bc.html	200	ok	text/html	11147	Gloucestershire Timetables	28.09.2012  08:29:11	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/325bd.html	200	ok	text/html	9853	Gloucestershire Timetables	28.09.2012  10:19:43	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/325mfaj.html	200	ok	text/html	16787	OmniTIMES HTML Page	31.05.2011  09:49:33	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/327mfbf.html	200	ok	text/html	9903	OmniTIMES HTML Page	10.06.2011  12:39:19	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/330mf.html	200	ok	text/html	12090	Gloucestershire Timetables	15.11.2012  11:19:02	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/331mfaa.html	200	ok	text/html	12056	Gloucestershire Timetables	28.06.2012  15:38:17	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/331mfab.html	200	ok	text/html	11758	Gloucestershire Timetables	28.06.2012  15:38:19	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfah.html	200	ok	text/html	10508	Gloucestershire Timetables	03.07.2012  13:39:03	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfan1.html	200	ok	text/html	9814	Gloucestershire Timetables	03.07.2012  15:05:39	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfan2.html	200	ok	text/html	8623	OmniTIMES HTML Page	23.05.2011  15:06:37	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfba.html	200	ok	text/html	11328	Gloucestershire Timetables	03.07.2012  13:39:31	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfbb.html	200	ok	text/html	10624	Gloucestershire Timetables	03.07.2012  13:39:35	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfbc.html	200	ok	text/html	11892	Gloucestershire Timetables	03.07.2012  13:39:39	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfbd.html	200	ok	text/html	7437	OmniTIMES HTML Page	18.02.2011  16:28:34	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfbe.html	200	ok	text/html	10090	Gloucestershire Timetables	03.07.2012  13:39:42	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfbf.html	200	ok	text/html	9623	Gloucestershire Timetables	03.07.2012  13:39:45	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/332mfbg.html	200	ok	text/html	11686	Gloucestershire Timetables	03.07.2012  13:39:48	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/334an.html	200	ok	text/html	10558	Gloucestershire Timetables	26.09.2012  09:16:32	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/337mfaa.html	200	ok	text/html	17365	OmniTIMES HTML Page	08.06.2011  08:44:07	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/339ag.html	200	ok	text/html	11448	Gloucestershire Timetables	22.10.2012  12:58:48	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/339ba.html	200	ok	text/html	10518	Gloucestershire Timetables	08.10.2012  08:24:56	0			GCC Web Server		00:00.046		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/339bb.html	200	ok	text/html	11988	Gloucestershire Timetables	19.10.2012  10:53:28	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/339bd.html	200	ok	text/html	13532	Gloucestershire Timetables	05.11.2012  14:57:34	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/339mfaf.html	200	ok	text/html	16267	OmniTIMES HTML Page	23.05.2011  10:31:44	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/339mfag.html	404	not found					0			GCC Web Server		00:00.000		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/339mfai.html	200	ok	text/html	15591	OmniTIMES HTML Page	24.02.2011  14:05:56	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/348ac.html	200	ok	text/html	10148	Gloucestershire Timetables	26.09.2012  14:15:21	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/348mfaa.html	200	ok	text/html	17361	OmniTIMES HTML Page	26.07.2011  13:55:13	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/348mfae.html	200	ok	text/html	14642	OmniTIMES HTML Page	29.09.2010  10:13:39	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/348mfah.html	200	ok	text/html	12133	OmniTIMES HTML Page	10.09.2010  13:26:46	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349a.html	200	ok	text/html	11438	Gloucestershire Timetables	26.09.2012  09:16:29	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349a.pdf	404	not found					0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349ac.html	200	ok	text/html	10634	Gloucestershire Timetables	26.09.2012  12:29:34	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349ad.html	200	ok	text/html	10896	Gloucestershire Timetables	26.09.2012  12:29:34	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349ae.html	200	ok	text/html	10356	Gloucestershire Timetables	26.09.2012  12:29:36	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349ag.html	200	ok	text/html	9462	Gloucestershire Timetables	26.09.2012  12:29:37	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349ah.html	200	ok	text/html	9788	Gloucestershire Timetables	26.09.2012  12:29:37	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349ai.html	200	ok	text/html	10940	Gloucestershire Timetables	26.09.2012  12:29:41	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/349aj.html	200	ok	text/html	10548	Gloucestershire Timetables	26.09.2012  12:29:42	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/354mf.html	200	ok	text/html	16911	Gloucestershire Timetables	05.09.2012  11:03:33	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/355sa.html	200	ok	text/html	10449	Gloucestershire Timetables	05.09.2012  12:22:05	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/355su.html	200	ok	text/html	9800	Gloucestershire Timetables	05.09.2012  12:22:06	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfag.html	200	ok	text/html	16241	OmniTIMES HTML Page	29.06.2011  12:11:32	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfah.html	200	ok	text/html	22963	OmniTIMES HTML Page	30.06.2011  07:47:58	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfam.html	200	ok	text/html	18551	OmniTIMES HTML Page	29.06.2011  10:57:44	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfan.html	200	ok	text/html	22281	OmniTIMES HTML Page	08.03.2011  14:28:28	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfaq.html	200	ok	text/html	14885	OmniTIMES HTML Page	16.03.2011  14:28:11	0			GCC Web Server		00:00.015		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfar.html	200	ok	text/html	28701	OmniTIMES HTML Page	09.03.2011  09:50:54	0			GCC Web Server		00:00.172		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfas.html	200	ok	text/html	17366	OmniTIMES HTML Page	10.03.2011  10:21:57	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/363mfat.html	200	ok	text/html	26049	OmniTIMES HTML Page	18.03.2011  08:40:08	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/369mfah.html	200	ok	text/html	19029	OmniTIMES HTML Page	20.07.2011  15:20:09	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372bk.html	200	ok	text/html	7467	OmniTIMES HTML Page	17.02.2011  14:46:56	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfba.html	200	ok	text/html	12453	OmniTIMES HTML Page	03.03.2011  08:49:14	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbb.html	200	ok	text/html	7461	OmniTIMES HTML Page	02.03.2011  14:34:48	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbc.html	200	ok	text/html	7453	OmniTIMES HTML Page	04.03.2011  16:24:47	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbd.html	200	ok	text/html	11205	OmniTIMES HTML Page	21.03.2011  12:23:39	0			GCC Web Server		00:00.140		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbe.html	200	ok	text/html	7473	OmniTIMES HTML Page	21.03.2011  15:11:17	0			GCC Web Server		00:00.032		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbf.html	200	ok	text/html	14845	OmniTIMES HTML Page	24.03.2011  16:00:56	0			GCC Web Server		00:00.046		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbg.html	200	ok	text/html	16183	OmniTIMES HTML Page	25.02.2011  16:39:21	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbh.html	200	ok	text/html	16157	OmniTIMES HTML Page	22.03.2011  10:12:23	0			GCC Web Server		00:00.093		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbi.html	200	ok	text/html	14958	OmniTIMES HTML Page	22.02.2011  15:46:50	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbj.html	200	ok	text/html	14877	OmniTIMES HTML Page	25.02.2011  14:50:47	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/372mfbl.html	200	ok	text/html	7411	OmniTIMES HTML Page	23.03.2011  13:48:22	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/373mf.html	200	ok	text/html	12431	Gloucestershire Timetables	20.08.2012  08:04:15	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/374ba.html	200	ok	text/html	11428	Gloucestershire Timetables	26.09.2012  13:11:33	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/374bc.html	200	ok	text/html	11262	Gloucestershire Timetables	26.09.2012  13:11:45	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/374mfbb.html	200	ok	text/html	10882	Gloucestershire Timetables	27.06.2012  15:27:46	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/379ba.html	200	ok	text/html	9882	Gloucestershire Timetables	05.11.2012  15:00:45	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/379bb.html	200	ok	text/html	9324	Gloucestershire Timetables	06.11.2012  12:21:02	0			GCC Web Server		00:00.140		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/379mfac.html	200	ok	text/html	12379	OmniTIMES HTML Page	25.07.2011  09:09:27	0			GCC Web Server		00:00.046		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/379mfad.html	200	ok	text/html	12379	OmniTIMES HTML Page	25.07.2011  13:32:19	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/379mff.html	200	ok	text/html	12181	OmniTIMES HTML Page	24.09.2010  07:54:54	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/381mf.html	200	ok	text/html	27704	OmniTIMES HTML Page	05.08.2011  10:22:10	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/381mfaj.html	200	ok	text/html	11157	OmniTIMES HTML Page	14.07.2011  14:44:35	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/381mfak.html	200	ok	text/html	9593	OmniTIMES HTML Page	10.09.2010  08:27:34	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/388af.html	200	ok	text/html	13010	Gloucestershire Timetables	26.09.2012  08:53:28	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/391aa.html	200	ok	text/html	11720	Gloucestershire Timetables	26.09.2012  14:13:56	0			GCC Web Server		00:00.172		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/391ac.html	200	ok	text/html	11306	Gloucestershire Timetables	26.09.2012  14:13:59	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/391ad.html	200	ok	text/html	11088	Gloucestershire Timetables	26.09.2012  14:14:03	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/392mfah.html	200	ok	text/html	23571	OmniTIMES HTML Page	13.01.2012  15:13:32	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/392mfak.html	200	ok	text/html	20635	OmniTIMES HTML Page	10.09.2010  08:27:35	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/401cmf.html	200	ok	text/html	13010	Gloucestershire Timetables	06.09.2012  13:35:25	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/401dmf.html	200	ok	text/html	11456	Gloucestershire Timetables	14.08.2012  14:00:27	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/402mf.html	200	ok	text/html	9699	Gloucestershire Timetables	21.04.2011  08:54:08	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/43amf.html	200	ok	text/html	9458	Gloucestershire Timetables	28.10.2011  09:50:41	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/502mf.html	200	ok	text/html	11644	Gloucestershire Timetables	13.04.2012  07:29:45	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/504mf.html	200	ok	text/html	11514	Gloucestershire Timetables	13.04.2012  07:58:11	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/505mf.html	200	ok	text/html	13048	Gloucestershire Timetables	13.04.2012  07:58:09	0			GCC Web Server		00:00.172		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/506mf.html	200	ok	text/html	10928	Gloucestershire Timetables	13.04.2012  07:58:14	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/520mf.html	200	ok	text/html	13990	Gloucestershire Timetables	28.10.2011  16:30:40	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/526mfaa.html	200	ok	text/html	18032	OmniTIMES HTML Page	06.07.2011  09:14:06	0			GCC Web Server		00:00.093		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/531mfaa.html	200	ok	text/html	9970	Gloucestershire Timetables	28.06.2012  14:55:16	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/532mfaa.html	200	ok	text/html	11488	Gloucestershire Timetables	28.06.2012  14:55:11	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/543mfba.html	200	ok	text/html	6203	OmniTIMES HTML Page	14.03.2011  15:30:02	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/551mfac.html	200	ok	text/html	9932	Gloucestershire Timetables	02.07.2012  13:50:48	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/552mfjm.html	200	ok	text/html	12379	OmniTIMES HTML Page	06.06.2011  11:35:51	0			GCC Web Server		00:00.109		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/559mfaa.html	200	ok	text/html	10342	Gloucestershire Timetables	02.07.2012  14:15:04	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/563mfba.html	200	ok	text/html	9196	Gloucestershire Timetables	02.07.2012  14:15:06	0			GCC Web Server		00:00.157		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/564mfaa.html	200	ok	text/html	11059	OmniTIMES HTML Page	27.06.2011  10:31:28	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/609mfaa.html	200	ok	text/html	9800	Gloucestershire Timetables	02.07.2012  14:53:23	0			GCC Web Server		00:00.093		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/613mfaa.html	200	ok	text/html	17573	OmniTIMES HTML Page	11.07.2011  15:13:12	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/632mfaa.html	200	ok	text/html	13500	Gloucestershire Timetables	28.06.2012  14:54:43	0			GCC Web Server		00:00.093		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/666mfaa.html	200	ok	text/html	9857	OmniTIMES HTML Page	01.06.2011  07:31:09	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/681mfaa.html	200	ok	text/html	8593	OmniTIMES HTML Page	10.06.2011  10:00:11	0			GCC Web Server		00:00.140		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/696ba.html	200	ok	text/html	11034	Gloucestershire Timetables	08.10.2012  11:33:24	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/705mfaa.html	200	ok	text/html	9831	OmniTIMES HTML Page	27.06.2011  10:31:40	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/709ab.html	200	ok	text/html	9312	Gloucestershire Timetables	26.09.2012  13:10:47	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/718mf.html	200	ok	text/html	10625	Gloucestershire Timetables	26.09.2012  08:53:31	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/726a.pdf	404	not found					0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/726mfa.html	200	ok	text/html	22369	OmniTIMES HTML Page	02.06.2011  09:52:18	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/734bb.html	200	ok	text/html	11384	Gloucestershire Timetables	15.10.2012  12:51:55	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/749mf.html	200	ok	text/html	10076	Gloucestershire Timetables	05.03.2012  14:55:04	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/771mfaa.html	200	ok	text/html	10237	OmniTIMES HTML Page	18.07.2011  08:09:18	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/786mfaa.html	200	ok	text/html	9732	Gloucestershire Timetables	28.06.2012  14:54:47	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/786mfae.html	200	ok	text/html	10064	Gloucestershire Timetables	28.06.2012  14:54:52	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/789mf.html	200	ok	text/html	6984	OmniTIMES HTML Page	04.07.2008  14:37:16	0			GCC Web Server		00:00.140		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/791mf.html	200	ok	text/html	11176	Gloucestershire Timetables	15.08.2012  08:12:28	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/823mf.html	200	ok	text/html	12954	Gloucestershire Timetables	24.08.2012  08:15:21	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/824mf.html	200	ok	text/html	15471	Gloucestershire Timetables	21.04.2011  08:54:00	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/830mf.html	200	ok	text/html	10274	Gloucestershire Timetables	06.09.2012  10:05:25	0			GCC Web Server		00:00.032		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/831mf.html	200	ok	text/html	10954	Gloucestershire Timetables	06.09.2012  09:45:30	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/837aa.html	200	ok	text/html	10890	Gloucestershire Timetables	02.10.2012  13:33:24	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/862mf.html	200	ok	text/html	13163	OmniTIMES HTML Page	12.11.2010  14:40:57	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/869mf.html	200	ok	text/html	12493	OmniTIMES HTML Page	26.07.2011  10:07:52	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/872mf.html	200	ok	text/html	13330	Gloucestershire Timetables	24.08.2012  10:30:18	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/949ba.html	200	ok	text/html	14818	Gloucestershire Timetables	26.09.2012  14:12:45	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/949mf.html	200	ok	text/html	12036	Gloucestershire Timetables	16.01.2012  14:35:36	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/962mf.html	200	ok	text/html	8707	OmniTIMES HTML Page	06.07.2010  09:42:19	0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/a15mf.html	200	ok	text/html	16129	OmniTIMES HTML Page	05.05.2011  14:13:27	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/a32mf.html	200	ok	text/html	10124	Gloucestershire Timetables	11.11.2011  15:48:09	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/br1mf.html	200	ok	text/html	12944	Gloucestershire Timetables	02.07.2012  14:53:25	0			GCC Web Server		00:00.015		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/bv2mf.html	200	ok	text/html	20633	OmniTIMES HTML Page	15.01.2010  16:37:25	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/bv4mf.html	404	not found					0			GCC Web Server		00:00.016		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/ch1mf.html	200	ok	text/html	12394	Gloucestershire Timetables	03.07.2012  14:32:18	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/cl2mf.html	200	ok	text/html	9834	Gloucestershire Timetables	03.07.2012  15:05:14	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/cl3mf.html	200	ok	text/html	9632	Gloucestershire Timetables	03.07.2012  15:05:16	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/cl4mf.html	200	ok	text/html	10416	Gloucestershire Timetables	03.07.2012  15:05:18	0			GCC Web Server		00:00.125		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/cl5mf.html	200	ok	text/html	18763	OmniTIMES HTML Page	09.05.2008  14:01:51	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/cl6mf.html	200	ok	text/html	9620	Gloucestershire Timetables	03.07.2012  15:05:20	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/cl8mf.html	200	ok	text/html	10722	Gloucestershire Timetables	03.07.2012  15:05:21	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/cy810.html	200	ok	text/html	8212	Gloucestershire Timetables	07.12.2012  11:29:20	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dm4mf.html	200	ok	text/html	13100	OmniTIMES HTML Page	07.02.2008  12:16:59	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dm9mf.html	200	ok	text/html	10534	OmniTIMES HTML Page	19.06.2009  12:58:28	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr1mf.html	200	ok	text/html	9955	OmniTIMES HTML Page	30.12.2010  14:30:15	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr2mf.html	200	ok	text/html	13151	OmniTIMES HTML Page	13.07.2011  14:15:30	0			GCC Web Server		00:00.172		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr3amf.html	200	ok	text/html	24864	OmniTIMES HTML Page	30.12.2010  14:30:16	0			GCC Web Server		00:00.156		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr3mf.html	200	ok	text/html	11295	OmniTIMES HTML Page	30.12.2010  14:30:16	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr4mf.html	200	ok	text/html	12516	OmniTIMES HTML Page	30.12.2010  14:30:16	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr5mf.html	200	ok	text/html	13086	OmniTIMES HTML Page	30.12.2010  14:30:16	0			GCC Web Server		00:00.156		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr6mf.html	200	ok	text/html	17526	OmniTIMES HTML Page	30.12.2010  14:30:16	0			GCC Web Server		00:00.156		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr7mf.html	200	ok	text/html	13759	OmniTIMES HTML Page	30.12.2010  14:30:17	0			GCC Web Server		00:00.109		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr8mf.html	200	ok	text/html	20051	OmniTIMES HTML Page	17.08.2011  14:22:25	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/dr9mf.html	200	ok	text/html	17595	OmniTIMES HTML Page	17.08.2011  10:00:16	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/hc3mf.html	404	not found					0			GCC Web Server		00:00.000		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/kx8mf.html	200	ok	text/html	18120	OmniTIMES HTML Page	10.02.2010  09:54:26	0			GCC Web Server		00:00.032		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/m07mf.html	200	ok	text/html	13677	OmniTIMES HTML Page	16.05.2008  14:35:47	0			GCC Web Server		00:00.032		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/ma8mf.html	200	ok	text/html	12447	OmniTIMES HTML Page	07.02.2008  12:17:00	0			GCC Web Server		00:00.079		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/n13mf.html	200	ok	text/html	11778	OmniTIMES HTML Page	16.08.2011  11:00:47	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/n14mf.html	200	ok	text/html	7445	OmniTIMES HTML Page	30.12.2010  14:30:17	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/n32mf.html	200	ok	text/html	10546	Gloucestershire Timetables	06.09.2012  08:19:25	0			GCC Web Server		00:00.031		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/nw0mf.html	200	ok	text/html	22397	OmniTIMES HTML Page	04.07.2011  10:02:44	0			GCC Web Server		00:00.172		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/pa1mf.html	200	ok	text/html	22554	OmniTIMES HTML Page	16.08.2011  11:00:48	0			GCC Web Server		00:00.109		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/pi1mf.html	200	ok	text/html	18963	OmniTIMES HTML Page	23.01.2009  12:18:34	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/r1amf.html	200	ok	text/html	14927	OmniTIMES HTML Page	20.11.2009  13:28:01	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/r60mf.html	200	ok	text/html	11320	Gloucestershire Timetables	11.11.2011  15:49:15	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/re1mf.html	200	ok	text/html	14885	OmniTIMES HTML Page	08.02.2010  14:42:47	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/re8mf.html	200	ok	text/html	16091	OmniTIMES HTML Page	16.06.2010  10:20:51	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/rov3mf.html	200	ok	text/html	11960	Gloucestershire Timetables	23.08.2012  14:38:24	0			GCC Web Server		00:00.063		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/rovmf.html	404	not found					0			GCC Web Server		00:00.000		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/rv1mf.html	200	ok	text/html	11116	Gloucestershire Timetables	28.08.2012  15:17:05	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/s16mf.html	200	ok	text/html	11820	Gloucestershire Timetables	05.09.2012  07:45:16	0			GCC Web Server		00:00.046		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/sp1mf.html	200	ok	text/html	23919	OmniTIMES HTML Page	16.08.2011  10:35:42	0			GCC Web Server		00:00.062		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/sp2mf.html	200	ok	text/html	13792	OmniTIMES HTML Page	16.08.2011  10:35:43	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/sp3mf.html	200	ok	text/html	20063	OmniTIMES HTML Page	16.08.2011  10:35:43	0			GCC Web Server		00:00.078		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/sp8mf.html	200	ok	text/html	21271	OmniTIMES HTML Page	16.08.2011  13:30:08	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/sv2mf.html	200	ok	text/html	11808	Gloucestershire Timetables	26.09.2012  14:12:57	0			GCC Web Server		00:00.047		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/sv3mf.html	200	ok	text/html	21571	OmniTIMES HTML Page	14.09.2010  11:26:28	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/tk3mf.html	200	ok	text/html	10982	Gloucestershire Timetables	03.01.2012  11:57:05	0			GCC Web Server		00:00.141		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/tk4mf.html	200	ok	text/html	9694	Gloucestershire Timetables	03.01.2012  11:57:08	0			GCC Web Server		00:00.110		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/w39mf.html	200	ok	text/html	26067	OmniTIMES HTML Page	08.09.2010  15:20:53	0			GCC Web Server		00:00.094		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/w61mf.html	200	ok	text/html	7977	Gloucestershire Timetables	11.11.2011  15:49:28	0			GCC Web Server		00:00.313		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/wy4mf.html	200	ok	text/html	14901	OmniTIMES HTML Page	09.08.2010  12:50:14	0			GCC Web Server		00:00.313		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/x10mf.html	200	ok	text/html	23719	OmniTIMES HTML Page	03.09.2010  15:26:04	0			GCC Web Server		00:00.422		
+https://ww5.gloucestershire.gov.uk/bustimes/schools/x11.html	200	ok	text/html	9582	Gloucestershire Timetables	22.10.2012  08:18:46	0			GCC Web Server		00:00.375		
+http://www.gloucestershire.gov.uk/index.cfm?articleid=12385	-2	skip external			<img border="1" src="times/GCClogo.jpg" alt="Click here to be redirected to the Gloucestershire County Council website" hspace="1" vspace="1" width="344" height="79">		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/GCClogo.jpg	-2	skip external			Click here to be redirected to the Gloucestershire County Council website		1		1			00:00.000	iso-8859-1	
+http://www.traveline.org.uk/index.htm	-2	skip external			 <img border="1" src="times/new%20traveline%20logo%20Colhor-jpg.jpg" alt="Click here to be redirected to the Traveline website" hspace="1" vspace="1" width="248" height="91">		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/new%20traveline%20logo%20Colhor-jpg.jpg	-2	skip external			Click here to be redirected to the Traveline website		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/008MS.HTML	-2	skip external			Monday to  		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/08AMS.HTML	-2	skip external			Monday to  Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q12MF.HTML	-2	skip external			12 Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q12SA.HTML	-2	skip external			12 Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/012SU.HTML	-2	skip external			12 Sunday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/014MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/014SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/014SU.HTML	-2	skip external			Sunday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q13MS.HTML	-2	skip external			Monday to  		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/020MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/020SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/S23MF.HTML	-2	skip external			Thursdays only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/025MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/025SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/026MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/026SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q20MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q20SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/028MS.HTML	-2	skip external			Monday to Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q29MS.HTML	-2	skip external			Monday to 		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/035MS.HTML	-2	skip external			Monday to  		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/36xMS.HTML	-2	skip external			Monday to  Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/037MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/037SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/040MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/040SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/046MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/046SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/046SU.HTML	-2	skip external			Sunday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q54MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/54ASA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/063SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/084MF.HTML	-2	skip external			Monday  to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/084SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/086MF.HTML	-2	skip external			Monday  to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/086SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/087MF.HTML	-2	skip external			Monday  to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/091MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/093MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/093SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/201MF.HTML	-2	skip external			201 Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/201SA.HTML	-2	skip external			201 Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/207MS.HTML	-2	skip external			Monday to  Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/210MS.HTML	-2	skip external			Monday to Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/Q81MS.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/224MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/227MS.HTML	-2	skip external			Monday to  Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/230MS.HTML	-2	skip external			Monday to Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/242MF.HTML	-2	skip external			Fridays only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/254MF.HTML	-2	skip external			Monday 		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/256MF.HTML	-2	skip external			Wednesdays only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/261MF.HTML	-2	skip external			Friday  only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/263MF.HTML	-2	skip external			Friday only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/264MF.HTML	-2	skip external			Tuesdays and Fridays only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/267MF.HTML	-2	skip external			Tuesday only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/278MF.HTML	-2	skip external			Wednesdays and Fridays only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/288MF.HTML	-2	skip external			Tuesdays and Fridays only		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/311MF.HTML	-2	skip external			Monday to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/311SA.HTML	-2	skip external			Saturday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/626MF.HTML	-2	skip external			Monday  to Friday		1		1			00:00.000	iso-8859-1	
+http://ww5.gloucestershire.gov.uk/Bustimes/times/X31MF.HTML	-2	skip external			Every 3rd Wednesday of the Month		1		1			00:00.000	iso-8859-1	

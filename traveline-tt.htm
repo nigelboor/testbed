@@ -1,0 +1,132 @@
+<form method="post" action="http://www.travelinesw.com/swe/XSLT_SELTT_REQUEST" onsubmit="return checkSelTTInput();">
+	<input name="language" value="en" type="hidden">
+	<input name="sessionID" value="EFA02_18378009" type="hidden">
+	<input name="requestID" value="1" type="hidden">
+	<input name="execInst" value="" type="hidden">
+	<input name="command" value="" type="hidden">
+	<input name="deleteAllLines" value="1" type="hidden">
+	<input name="lineDirFilter" value="1" type="hidden">
+	<input name="selTTAllOperators" value="1" type="hidden">
+	<input name="noMergeDirForNet" value="tfl" type="hidden">
+	<input name="deleteAssignedStops_seltt" value="0" type="hidden">
+	<input name="privateTransport" value="1" type="hidden">
+	<input name="mergeOpName" value="1" type="hidden">
+	<input name="locationServerActive" value="1" type="hidden">
+	<input name="anySigWhenPerfectNoOtherMatches" value="1" type="hidden">
+	<input name="anyMaxSizeHitList" value="1350" type="hidden">
+	<input name="ptOptionsActive" value="1" type="hidden">
+	<input name="itOptionsActive" value="1" type="hidden">
+	<input name="imparedOptionsActive" value="1" type="hidden">
+	<input name="useProxFootSearch" value="0" type="hidden">
+	<input name="trITMOT" value="100" type="hidden">
+	<input name="trITMOTvalue" value="20" type="hidden">
+	<input name="useAllStops" value="1" type="hidden">
+	<input name="mergeOpName" value="0" type="hidden">
+	<input name="mergeDir" value="1" type="hidden">
+	<input name="opSub" value="set" type="hidden">
+	<input name="opSub" value="ea" type="hidden">
+	<input name="opSub" value="em" type="hidden">
+	<input name="opSub" value="nrc" type="hidden">
+	<input name="opSub" value="bed" type="hidden">
+	<input name="opSub" value="tfl" type="hidden">
+	<input name="itdLPxx_multiSTT" value="" type="hidden">
+	<input name="w_regPrefAm" value="4" type="hidden">
+	<input name="w_regPrefAm" value="1" type="hidden">
+	<input name="w_regPrefAm" value="5" type="hidden">
+	<input name="w_regPrefAm" value="3" type="hidden">
+	<input name="w_regPrefAm" value="2" type="hidden">
+	<input name="w_regPrefAm" value="6" type="hidden">
+	<div>
+		<fieldset>
+			<legend>
+				Find the timetable for your bus by entering any of the following
+			</legend>
+			<div style="float:left;width:11em;height:3em;padding-top:10px" class="spaceLeft">
+				<b>Bus Service Number: </b>
+			</div>
+			<div style="height:3em;padding-top:10px">
+				<input class="name" name="lineName" style="width:15em;" id="lineName" value="" type="text">
+			</div>
+			<div style="float:left;width:11em;height:3em;" class="spaceLeft">
+				<b>Operator Name: </b>
+			</div>
+			<div>
+				<input name="opName" id="inputOpName" style="width:15em" value="" type="text">
+			</div>
+			<input name="anyMaxSizeHitList" value="1350" type="hidden">
+			<input name="locationInfoActive" value="1" type="hidden">
+			<div style="clear:both">
+				<input name="anyObjFilter_seltt" value="111" type="hidden">
+				<input name="nameInfo_seltt" id="nameInfo_seltt" value="invalid" type="hidden">
+				<input name="placeInfo_seltt" id="placeInfo_seltt" value="invalid" type="hidden">
+				<input name="typeInfo_seltt" id="typeInfo_seltt" value="invalid" type="hidden">
+				<input name="useHouseNumberList_seltt" value="1" type="hidden">
+				<input name="placeState_seltt" id="placeState_seltt" value="empty" type="hidden">
+				<input name="nameState_seltt" id="nameState_seltt" value="empty" type="hidden">
+				<div id="odv_seltt">
+					<input name="type_seltt" value="any" type="hidden">
+					<div style="padding-left:6px;width:11em;float:left;">
+						<b>Location:</b>
+					</div>
+					<div style="float:left;">
+						<div>
+							<input style="width:15em" name="name_seltt" id="name_seltt" type="text">
+						</div>
+						<script type="text/javascript">
+							var us = 'seltt';
+						</script>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div style="clear:both;"></div>
+				<div style="padding:4px; 0">
+					<input name="itdLPxx_onlySwTT" id="itdLPxx_onlySwTT" value="1" checked="checked" type="checkbox">
+					<label for="itdLPxx_onlySwTT">Display only South West Timetables</label>
+				</div>
+				<fieldset style="padding:1px;">
+					<table>
+						<tbody>
+							<tr>
+								<td>
+								<input name="itdLPxx_Cornwall" class="tt_operator_selections" id="selection_Cornwall" value="0" type="checkbox">
+								<label for="selection_Cornwall">Cornwall</label></td><td>
+								<input name="itdLPxx_Devon" class="tt_operator_selections" id="selection_Devon" value="0" type="checkbox">
+								<label for="selection_Devon">Devon</label></td><td>
+								<input name="itdLPxx_Dorset" class="tt_operator_selections" id="selection_Dorset" value="0" type="checkbox">
+								<label for="selection_Dorset">Dorset</label></td><td>
+								<input name="itdLPxx_Gloucestershire" class="tt_operator_selections" id="selection_Gloucestershire" value="1" checked="checked" type="checkbox">
+								<label for="selection_Gloucestershire">Gloucestershire</label></td>
+							</tr>
+							<tr>
+								<td>
+								<input name="itdLPxx_Greater_Bristol" class="tt_operator_selections" id="selection_Greater_Bristol" value="0" type="checkbox">
+								<label for="selection_Greater_Bristol">Greater Bristol</label></td><td>
+								<input name="itdLPxx_Hampshire" class="tt_operator_selections" id="selection_Hampshire" value="0" type="checkbox">
+								<label for="selection_Hampshire">Hampshire</label></td><td>
+								<input name="itdLPxx_Somerset" class="tt_operator_selections" id="selection_Somerset" value="0" type="checkbox">
+								<label for="selection_Somerset">Somerset</label></td><td>
+								<input name="itdLPxx_Wiltshire" class="tt_operator_selections" id="selection_Wiltshire" value="0" type="checkbox">
+								<label for="selection_Wiltshire">Wiltshire</label></td>
+							</tr>
+						</tbody>
+					</table>
+				</fieldset>
+			</div>
+			<script type="text/javascript"></script>
+		</fieldset>
+		<div id="submitButtons" style="text-align:right;margin-top:3px;">
+			<input onclick="window.location.href='XSLT_SELTT_REQUEST?language=en';" style="width:12.2em; height:2.3em" class="smallredbutton" value="Clear All" title="Clear All" type="button">
+			&nbsp;&nbsp;
+
+			<input onclick="document.forms[0].command.value='changeRequest';document.forms[0].submit();" style="width:12.2em; height:2.3em;" class="smallorangebutton" value="Modify Search" title="Modify Search" type="button">
+			&nbsp;&nbsp;
+			<input onclick="document.forms[0].execInst.value='';document.forms[0].command.value='';" style="width:6.3em; height:2.3em;" class="biggreensubmitbutton" value="Go" title="Go" type="submit">
+		</div>
+	</div>
+	<div style="padding-bottom:10px;padding-left:10px;">
+		<br>
+		<b>Click the route description to see the timetable of a service or click the map button for a map of its route.</b>
+		<br>
+	</div>
+</form>

@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>users-staffnet</title>
+		<meta name="description" content="">
+		<meta name="author" content="nboor">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1>users-staffnet</h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+				</p>
+			</nav>
+
+			<div>
+				<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in tree.root.children" eventhandler="eventhandler" node="child" current-node="currentNode" tree="this" section="users" ng-animate="animation()" class="ng-scope has-children">
+					<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 20px;">
+						<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-down" style="visibility: visible;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-folder" ng-click="select(node, $event)" title="users"></i><a href="#/users" ng-click="select(node, $event)">Users</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+						<div ng-show="node.loading" class="l" style="display: none;">
+							<div></div>
+						</div>
+					</div>
+					<ul ng-class="{collapsed: !node.expanded}" class="ng-scope">
+						<!-- ngRepeat: child in node.children -->
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/6"></i><a href="#/users/users/edit/6" ng-click="select(node, $event)">Aaron Barnes</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/45"></i><a href="#/users/users/edit/45" ng-click="select(node, $event)">Alec.TOMLINS@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/38"></i><a href="#/users/users/edit/38" ng-click="select(node, $event)">Amanda.Breese@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/56"></i><a href="#/users/users/edit/56" ng-click="select(node, $event)">Amanda.Cooper@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/81"></i><a href="#/users/users/edit/81" ng-click="select(node, $event)">Amy.Davies@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/37"></i><a href="#/users/users/edit/37" ng-click="select(node, $event)">Andrew.Sutcliffe2@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/23"></i><a href="#/users/users/edit/23" ng-click="select(node, $event)">Annie.Meager@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/16"></i><a href="#/users/users/edit/16" ng-click="select(node, $event)">Becki.HARTSHORN@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/90"></i><a href="#/users/users/edit/90" ng-click="select(node, $event)">Brian.Cumiskey@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/83"></i><a href="#/users/users/edit/83" ng-click="select(node, $event)">caroline.parmar@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/92"></i><a href="#/users/users/edit/92" ng-click="select(node, $event)">caroline.staite@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/5"></i><a href="#/users/users/edit/5" ng-click="select(node, $event)">Cathy.STEED@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/49"></i><a href="#/users/users/edit/49" ng-click="select(node, $event)">cheryl.millyard@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/71"></i><a href="#/users/users/edit/71" ng-click="select(node, $event)">Chris.Seabury@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/66"></i><a href="#/users/users/edit/66" ng-click="select(node, $event)">Claire.COLLINS@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/12"></i><a href="#/users/users/edit/12" ng-click="select(node, $event)">Claire.Daugreilh@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/52"></i><a href="#/users/users/edit/52" ng-click="select(node, $event)">Clare.Cato@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/26"></i><a href="#/users/users/edit/26" ng-click="select(node, $event)">contactus@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/91"></i><a href="#/users/users/edit/91" ng-click="select(node, $event)">darren.skinner2@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/30"></i><a href="#/users/users/edit/30" ng-click="select(node, $event)">david.hughes@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/53"></i><a href="#/users/users/edit/53" ng-click="select(node, $event)">David.Reeve-Black@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/40"></i><a href="#/users/users/edit/40" ng-click="select(node, $event)">David.Wood@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/74"></i><a href="#/users/users/edit/74" ng-click="select(node, $event)">denise.webb@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/82"></i><a href="#/users/users/edit/82" ng-click="select(node, $event)">donna.townsend@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/41"></i><a href="#/users/users/edit/41" ng-click="select(node, $event)">Ed.Drain@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/86"></i><a href="#/users/users/edit/86" ng-click="select(node, $event)">Eddy.Buckland@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/58"></i><a href="#/users/users/edit/58" ng-click="select(node, $event)">Elizabeth.Jones2@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/36"></i><a href="#/users/users/edit/36" ng-click="select(node, $event)">Esme.HOLBURT@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/59"></i><a href="#/users/users/edit/59" ng-click="select(node, $event)">Frank.DorringtonWard@amey.co.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/8"></i><a href="#/users/users/edit/8" ng-click="select(node, $event)">Gareth.Heward@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/42"></i><a href="#/users/users/edit/42" ng-click="select(node, $event)">Gary.TRICKEY@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/73"></i><a href="#/users/users/edit/73" ng-click="select(node, $event)">Geraldine.ATKINS@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/34"></i><a href="#/users/users/edit/34" ng-click="select(node, $event)">Hazel.WHITE@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/17"></i><a href="#/users/users/edit/17" ng-click="select(node, $event)">Heather.Timbrell@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/7"></i><a href="#/users/users/edit/7" ng-click="select(node, $event)">Helen.Millwood-Lloyd@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/63"></i><a href="#/users/users/edit/63" ng-click="select(node, $event)">jacob.dyer@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/43"></i><a href="#/users/users/edit/43" ng-click="select(node, $event)">Jayne.BUCHAN@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/15"></i><a href="#/users/users/edit/15" ng-click="select(node, $event)">Jeremy.Wurm@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/87"></i><a href="#/users/users/edit/87" ng-click="select(node, $event)">Joanna.DAVIES@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/62"></i><a href="#/users/users/edit/62" ng-click="select(node, $event)">joanne.foy@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/2"></i><a href="#/users/users/edit/2" ng-click="select(node, $event)">John.PORTER@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/32"></i><a href="#/users/users/edit/32" ng-click="select(node, $event)">Jordan.Turner@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/54"></i><a href="#/users/users/edit/54" ng-click="select(node, $event)">Julie.KING@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/79"></i><a href="#/users/users/edit/79" ng-click="select(node, $event)">Katie.Matthews@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/64"></i><a href="#/users/users/edit/64" ng-click="select(node, $event)">laura.powick@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/48"></i><a href="#/users/users/edit/48" ng-click="select(node, $event)">Lisa.Hanratty@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/27"></i><a href="#/users/users/edit/27" ng-click="select(node, $event)">Lizzie.Gillman@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/95"></i><a href="#/users/users/edit/95" ng-click="select(node, $event)">Lois.Lewis@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/33"></i><a href="#/users/users/edit/33" ng-click="select(node, $event)">lorna.fizor@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/97"></i><a href="#/users/users/edit/97" ng-click="select(node, $event)">lorraine.anderson@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/69"></i><a href="#/users/users/edit/69" ng-click="select(node, $event)">Marc.Jones@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/94"></i><a href="#/users/users/edit/94" ng-click="select(node, $event)">Marie.Yates@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/14"></i><a href="#/users/users/edit/14" ng-click="select(node, $event)">MarieAnn.Barchus@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/72"></i><a href="#/users/users/edit/72" ng-click="select(node, $event)">Mat.Jenkins@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/50"></i><a href="#/users/users/edit/50" ng-click="select(node, $event)">matt.white@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/20"></i><a href="#/users/users/edit/20" ng-click="select(node, $event)">Mel.Smith@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/51"></i><a href="#/users/users/edit/51" ng-click="select(node, $event)">Michael.Ellis@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/18"></i><a href="#/users/users/edit/18" ng-click="select(node, $event)">Michele.Collins@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/61"></i><a href="#/users/users/edit/61" ng-click="select(node, $event)">Michelle.MORFORD@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/46"></i><a href="#/users/users/edit/46" ng-click="select(node, $event)">natalie.povey@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/29"></i><a href="#/users/users/edit/29" ng-click="select(node, $event)">Neil.Chatten@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/39"></i><a href="#/users/users/edit/39" ng-click="select(node, $event)">Neil.SPILLER@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/9"></i><a href="#/users/users/edit/9" ng-click="select(node, $event)">Nicholas.Holland@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/96"></i><a href="#/users/users/edit/96" ng-click="select(node, $event)">Nicola.Davies@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/68"></i><a href="#/users/users/edit/68" ng-click="select(node, $event)">Nicola.MIFFLIN@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/3"></i><a href="#/users/users/edit/3" ng-click="select(node, $event)">nigel.boor@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/78"></i><a href="#/users/users/edit/78" ng-click="select(node, $event)">Nina.Verle@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/22"></i><a href="#/users/users/edit/22" ng-click="select(node, $event)">Paige.Parton@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/25"></i><a href="#/users/users/edit/25" ng-click="select(node, $event)">paul.bigwood@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/44"></i><a href="#/users/users/edit/44" ng-click="select(node, $event)">Paul.BROWN@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/77"></i><a href="#/users/users/edit/77" ng-click="select(node, $event)">Paul.Cooke@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/1"></i><a href="#/users/users/edit/1" ng-click="select(node, $event)">PCG Administrator</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/89"></i><a href="#/users/users/edit/89" ng-click="select(node, $event)">Peter.Moore@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/21"></i><a href="#/users/users/edit/21" ng-click="select(node, $event)">Rachael.Hughes@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/84"></i><a href="#/users/users/edit/84" ng-click="select(node, $event)">richard.wintour@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/55"></i><a href="#/users/users/edit/55" ng-click="select(node, $event)">Robert.RANDALL@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/24"></i><a href="#/users/users/edit/24" ng-click="select(node, $event)">sandra.tate@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/31"></i><a href="#/users/users/edit/31" ng-click="select(node, $event)">sarah.james@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/75"></i><a href="#/users/users/edit/75" ng-click="select(node, $event)">Sarah.MASLANKA@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/10"></i><a href="#/users/users/edit/10" ng-click="select(node, $event)">Sharon.Smith@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/35"></i><a href="#/users/users/edit/35" ng-click="select(node, $event)">Sheila.Normington@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/19"></i><a href="#/users/users/edit/19" ng-click="select(node, $event)">Simon.Boxall-Southall@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/93"></i><a href="#/users/users/edit/93" ng-click="select(node, $event)">simon.hawkins@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/57"></i><a href="#/users/users/edit/57" ng-click="select(node, $event)">Sue.KILLORAN@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/85"></i><a href="#/users/users/edit/85" ng-click="select(node, $event)">Sumaiya.Tilly@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/80"></i><a href="#/users/users/edit/80" ng-click="select(node, $event)">Teresa.Quaresma@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/65"></i><a href="#/users/users/edit/65" ng-click="select(node, $event)">testeditor</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/98"></i><a href="#/users/users/edit/98" ng-click="select(node, $event)">tester</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/13"></i><a href="#/users/users/edit/13" ng-click="select(node, $event)">testwriter</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/4"></i><a href="#/users/users/edit/4" ng-click="select(node, $event)">Thomas.Crosbie@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/28"></i><a href="#/users/users/edit/28" ng-click="select(node, $event)">Tina.Cox@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/47"></i><a href="#/users/users/edit/47" ng-click="select(node, $event)">toby.catchpole@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/70"></i><a href="#/users/users/edit/70" ng-click="select(node, $event)">Tony.Clemmens@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/76"></i><a href="#/users/users/edit/76" ng-click="select(node, $event)">T'Pu.Kapadia@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/67"></i><a href="#/users/users/edit/67" ng-click="select(node, $event)">yasmin.purchase@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" class="not-published" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/60"></i><a href="#/users/users/edit/60" ng-click="select(node, $event)">Carol.Holt@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" class="not-published" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/11"></i><a href="#/users/users/edit/11" ng-click="select(node, $event)">Lindsey.Bodman@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+						<li ng-class="{'current': (node == currentNode), 'has-children': node.hasChildren}" on-right-click="altSelect(node, $event)" ng-repeat="child in node.children" eventhandler="eventhandler" tree="tree" current-node="currentNode" node="child" section="users" ng-animate="animation()" class="ng-scope">
+							<div ng-class="getNodeCssClass(node)" ng-swipe-right="options(node, $event)" class="not-published" style="padding-left: 40px;">
+								<ins ng-class="{'icon-navigation-right': !node.expanded, 'icon-navigation-down': node.expanded}" ng-click="load(node)" class="icon-navigation-right" style="visibility: hidden;">&nbsp;</ins><i class="icon umb-tree-icon sprTree icon-user" ng-click="select(node, $event)" title="users/users/edit/88"></i><a href="#/users/users/edit/88" ng-click="select(node, $event)">Nigel.SUTCLIFFE@gloucestershire.gov.uk</a><a class="umb-options" ng-click="options(node, $event)"><i></i><i></i><i></i></a>
+								<div ng-show="node.loading" class="l" style="display: none;">
+									<div></div>
+								</div>
+							</div>
+							<ul ng-class="{collapsed: !node.expanded}" class="ng-scope collapsed">
+								<!-- ngRepeat: child in node.children -->
+							</ul>
+						</li>
+					</ul>
+				</li>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Copyright  by nboor
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

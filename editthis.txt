@@ -1,0 +1,4 @@
+<script language='JavaScript' src='http://www.feedbucket.com/js.php?src=https%3A%2F%2Fmyjobs.gloucestershire.gov.uk%2Frss%2FDefault.ashx%3FcategoryList%3D%26minsal%3D1000%26maxsal%3D1741917772%26workingPatternList%3D%26services%3D42%26keywords%3D%26outputtype%3Drss%26intranet%3D0&chan=y&desc=1&date=y' type='text/javascript'></script>
+<noscript>
+<a href='http://www.feedbucket.com/'>Web RSS</a> by FeedBucket.
+</noscript>

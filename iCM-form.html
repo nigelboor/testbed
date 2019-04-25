@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>iCM-form</title>
+		<meta name="description" content="">
+		<meta name="author" content="nboor">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<h1>iCM-form</h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+				</p>
+			</nav>
+
+			<div>
+				<form action="http://gossinteractive.com/article/3194/HideDisplay-text-based-on-chosen-option#form" enctype="application/x-www-form-urlencoded" method="post" id="PESTCONTROL_FORM">
+					<div id="PESTCONTROL_CONTROL">
+						<input name="PESTCONTROL_SESSIONDATA" value="" type="hidden">
+					</div>
+					<div id="PESTCONTROL__FIELDS_OUTER" class="icmform icmformleft">
+						<ol>
+							<li id="PESTCONTROL_INTRO_OUTER">
+								<script type="text/javascript">
+									/* <![CDATA[ */
+									(function(helper) {
+										helper.registerSimpleField({
+											fieldID : "PESTCONTROL_INTRO",
+											fieldName : "INTRO",
+											supportShowHide : true
+										});
+										helper.registerFieldUpdateValueFn("INTRO", function(value) {
+											$("#PESTCONTROL_INTRO").html(helper.utilExpandTemplate(value));
+										});
+									})(PESTCONTROLForm);
+									/* ]]> */
+								</script>
+								<div class="icmguidance icmguidanceleft" id="PESTCONTROL_INTRO">
+									<p></p><h2>Introduction</h2><p></p>
+									<p>
+										This form will show/hide text based on the chosen item in the Pest option.
+									</p><p></p>
+									<p>
+										function ( <b>helper</b>, <b>fieldName</b>, <b>value</b>, <b>valid</b>, <b>eventname</b>)
+										<br>
+									</p>
+								</div>
+							</li>
+							<li id="PESTCONTROL_PESTENQUIRY_OUTER">
+								<script type="text/javascript">
+									/* <![CDATA[ */
+									(function(helper) {
+										helper.registerSimpleField({
+											fieldID : "PESTCONTROL_PESTENQUIRY",
+											fieldName : "PESTENQUIRY",
+											supportShowHide : true
+										});
+									})(PESTCONTROLForm);
+									/* ]]> */
+								</script>
+								<fieldset class="icmvertical">
+									<legend>
+										<span>Pest Enquiry:</span>
+									</legend>
+									<ol>
+										<li id="PESTCONTROL_PEST_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerCheckedInputField({
+														fieldID : "PESTCONTROL_PEST",
+														fieldName : "PEST",
+														singleValue : true,
+														supportErrorDisplay : true,
+														supportEvents : true,
+														supportShowHide : true,
+														supportFocus : true,
+														supportEnableDisable : true
+													});
+													helper.registerFieldEventHandler("PEST", "PEST", function(helper, fieldname, value, valid, eventname) {
+														if (value === 'Ants') {
+															helper.showField('ANTS');
+														} else {
+															helper.hideField('ANTS');
+														}
+														if (value === 'Bedbugs') {
+															helper.showField('BEDBUGS');
+														} else {
+															helper.hideField('BEDBUGS');
+														}
+														if (value === 'Cockroaches') {
+															helper.showField('COCKROACHES');
+														} else {
+															helper.hideField('COCKROACHES');
+														}
+														if (value === 'Fleas') {
+															helper.showField('FLEAS');
+														} else {
+															helper.hideField('FLEAS');
+														}
+														if (value === 'Mice') {
+															helper.showField('MICE');
+														} else {
+															helper.hideField('MICE');
+														}
+														if (value === 'Rats') {
+															helper.showField('RATS');
+														} else {
+															helper.hideField('RATS');
+														}
+														if (value === 'Wasps') {
+															helper.showField('WASPS');
+														} else {
+															helper.hideField('WASPS');
+														}
+
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_PEST_OUTERDIV" class="field_radiogroup clear">
+												<fieldset class="icmvertical icmbuttongroup icmradiocontainer">
+													<legend id="PESTCONTROL_PESTLABEL">
+														<span>Pest</span><em title="required">*</em>
+													</legend>
+													<input name="PESTCONTROL_PEST" value="" type="hidden">
+													<ol>
+														<li>
+															<input id="PESTCONTROL_PEST_OPT0" name="PESTCONTROL_PEST" value="Ants" type="radio">
+															<label for="PESTCONTROL_PEST_OPT0">Ants</label>
+														</li>
+														<li>
+															<input id="PESTCONTROL_PEST_OPT1" name="PESTCONTROL_PEST" value="Bedbugs" type="radio">
+															<label for="PESTCONTROL_PEST_OPT1">Bedbugs</label>
+														</li>
+														<li>
+															<input id="PESTCONTROL_PEST_OPT2" name="PESTCONTROL_PEST" value="Cockroaches" type="radio">
+															<label for="PESTCONTROL_PEST_OPT2">Cockroaches</label>
+														</li>
+														<li>
+															<input id="PESTCONTROL_PEST_OPT3" name="PESTCONTROL_PEST" value="Fleas" type="radio">
+															<label for="PESTCONTROL_PEST_OPT3">Fleas</label>
+														</li>
+														<li>
+															<input id="PESTCONTROL_PEST_OPT4" name="PESTCONTROL_PEST" value="Mice" type="radio">
+															<label for="PESTCONTROL_PEST_OPT4">Mice</label>
+														</li>
+														<li>
+															<input id="PESTCONTROL_PEST_OPT5" name="PESTCONTROL_PEST" value="Rats" type="radio">
+															<label for="PESTCONTROL_PEST_OPT5">Rats</label>
+														</li>
+														<li>
+															<input id="PESTCONTROL_PEST_OPT6" name="PESTCONTROL_PEST" value="Wasps" type="radio">
+															<label for="PESTCONTROL_PEST_OPT6">Wasps</label>
+														</li>
+													</ol>
+												</fieldset>
+											</div>
+										</li>
+										<li style="display: none;" id="PESTCONTROL_ANTS_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_ANTS",
+														fieldName : "ANTS",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("ANTS", function(value) {
+														$("#PESTCONTROL_ANTS").html(value);
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_ANTS">
+												<div>
+													<h2>Ants</h2>
+													<p>
+														The common garden black ant is not regarded as a significant risk to public health, however they can be a nuisance when they enter homes in search of food.
+													</p><h3>How we will treat the problem</h3>
+													<p>
+														Our technicians will carry out a treatment to the inside of your property using a licensed professional product. The treatment costs £63 for a one-off treatment and re-visit. Any subsequent revisits will be charged at £19.20 up to a maximum of 3 additional visits.
+														<br>
+														Treatment can take up to 5 days to take effect.
+													</p><h3>What we are unable to deal with</h3>
+													<ul style="???list-style-type:disc???">
+														<li>
+															we do not treat the common garden black ant when the nest is outside your home
+														</li>
+														<li>
+															we do not treat the <a title="Pharaoh Ant" href="http://en.wikipedia.org/wiki/Pharaoh_ant" target="new">Pharaoh Ant</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li style="display: none;" id="PESTCONTROL_BEDBUGS_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_BEDBUGS",
+														fieldName : "BEDBUGS",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("BEDBUGS", function(value) {
+														$("#PESTCONTROL_BEDBUGS").html(value);
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_BEDBUGS">
+												<div>
+													<h2>Bed bugs</h2>
+													<p>
+														The <a href="http://en.wikipedia.org/wiki/Bed_bug" title="Bed Bug" target="new">bed bug (Cimex lectularius)</a> is a parasite and lives off human and animal blood.
+													</p><p></p><h3>How we will treat the problem</h3>
+													<p>
+														Our technicians will carry out a treatment to the inside of your property using a licensed professional product. The treatment costs £63 for a one-off treatment and re-visit. Any subsequent revisits will be charged at £38.40 up to a maximum of three additional visits over a three month period.
+														<br>
+														Treatment can take up to 14 days to take effect.
+													</p>
+													<p>
+														A thorough treatment of the room including the bed frame with an insecticide will be required. So please ensure the beds are stripped of bed clothes on the day of the appointment and wash the bed clothes putting clean ones back on following the treatment.
+													</p><p></p><h3>Things to do before your appointment</h3><p></p>
+													<ul>
+														<li>
+															carefully vacuum your carpets and soft furnishings paying particular attention to seams, tufts and edges of mattresses and the edge of carpets along skirting board
+														</li>
+														<li>
+															empty your vacuum cleaner into an external bin immediately to prevent the bed bugs and their eggs escaping from the vacuum cleaner back into your home
+														</li>
+														<li>
+															ensure the beds are stripped of bed clothes on the day of the appointment and wash the bed clothes putting clean ones back on following the treatment
+														</li>
+														<li>
+															clear as much floor space as possible but not the furniture
+														</li><ul>
+
+														</ul>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li style="display: none;" id="PESTCONTROL_COCKROACHES_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_COCKROACHES",
+														fieldName : "COCKROACHES",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("COCKROACHES", function(value) {
+														$("#PESTCONTROL_COCKROACHES").html(value);
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_COCKROACHES">
+												<div>
+													<h2>Cockroaches</h2>
+													<p>
+														The two main types seen in this country are <a href="http://en.wikipedia.org/wiki/German_cockroach" title="German Cockroach" target="New">German cockroaches (Blatella germanica)</a> and <a href="http://en.wikipedia.org/wiki/Oriental_cockroach" title="Oriental Cockroach" target="new">Oriental cockroaches (Blatta orientalis)</a>.
+														<br>
+
+														Both are primarily nocturnal and thrive in humid conditions.
+														<br>
+
+														They eat a wide range of food and need a water supply to survive. They live in cracks, crevices and ductings but forage for food in the open.
+													</p><p>
+
+													</p><h3>How we will treat the problem</h3>
+													<p>
+
+														Our technicians will carry out a treatment to the inside of your property using a licensed professional product. The treatment costs £63 for a one-off treatment and re-visit. Any subsequent revisits will be charged at £38.40 up to a maximum of three additional visits over a three month period.
+														<br>
+														Treatment can take up to 14 days to take effect.
+													</p><p>
+
+													</p><h3>How to tell if you have cockroaches</h3><p>
+
+													</p>
+													<ul>
+														<li>
+															cockroaches are usually inactive during the day so you will most likely see them when turning on the light at night
+														</li>
+														<li>
+															you will experience a strong, oily odour, which becomes extremely pungent when large numbers of the insects are present
+														</li>
+														<li>
+															if water is scarce they leave a dust of black/dark brown droppings that are cylindrical &amp; less than 2mm wide and can be found on flat surfaces and along the bottom of the wall where cockroachs run
+														</li>
+														<li>
+															where water is readily available they produce brown smear marks instead of droppings
+														</li>
+														<li>
+															A common sign of a cockraoch infestation is the presence of small, dark brown, oval shaped egg casings from recently hatched cockroaches
+														</li>
+														<li>
+															cockroaches will eat almost anything as well as food such as food packaging, leather, books, paper, clothing and other pet droppings
+														</li>
+														<ul>
+
+														</ul>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li style="display: none;" id="PESTCONTROL_FLEAS_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_FLEAS",
+														fieldName : "FLEAS",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("FLEAS", function(value) {
+														$("#PESTCONTROL_FLEAS").html(value);
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_FLEAS">
+												<div>
+													<h2>Fleas</h2>
+													<p>
+														Flea bites can produce an allergic reaction. The typical symptom of a flea bite is a small red spot 5mm or so in diameter. In sensitive individuals the response can be worse and the bite extremely itchy.
+													</p><p>
+
+													</p><h3>How we will treat the problem</h3>
+													<p>
+
+														Our technicians will carry out a treatment to the inside of your property using a licensed professional product. The treatment costs £63 for a one-off treatment and re-visit. Any subsequent revisits will be charged at £38.40 up to a maximum of three additional visits over a three month period.
+														<br>
+														Households on full council tax or housing benefit receive treatment for free.
+														<br>
+														Treatment can take up to 14 days to take effect.
+													</p>
+													<p>
+
+														A thorough treatment of the room including the bed frame with an insecticide will be required. So please ensure the beds are stripped of bed clothes on the day of the appointment and wash the bed clothes putting clean ones back on following the treatment.
+													</p><p>
+
+													</p><h3>How to tell if you have fleas</h3><p>
+
+													</p>
+													<ul>
+														<li>
+															your pets will constantly be scratching
+														</li>
+														<li>
+															flea droppings will be seen in clusters next to the skin
+														</li>
+														<li>
+															fleas are 1- 4mm long, brownish in colour and have no wings but do have powerful legs adapted for jumping
+														</li>
+														<li>
+															where water is readily available they produce brown smear marks instead of droppings
+														</li>
+														<ul>
+
+														</ul>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li style="display: none;" id="PESTCONTROL_MICE_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_MICE",
+														fieldName : "MICE",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("MICE", function(value) {
+														$("#PESTCONTROL_MICE").html(value);
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_MICE">
+												<div>
+													<h2>Mice</h2>
+													<p>
+														Mice associate themselves with humans for food and shelter.
+														<br>
+														They can spread disease in their urine and faeces and it is important that at the first sign of mice good hygiene is maintained and Pest Control are called to treat the premises.
+													</p><p>
+
+													</p><h3>How we will treat the problem</h3>
+													<p>
+
+														Our technicians will carry out a treatment to the inside of your property using a licensed professional product. The treatment costs £63 for a one-off treatment and re-visit. Any subsequent revisits will be charged at £38.40 up to a maximum of three additional visits over a three month period.
+														<br>
+														Treatment can take up to 14 days to take effect.
+													</p>
+													<p>
+
+														A thorough treatment of the room including the bed frame with an insecticide will be required. So please ensure the beds are stripped of bed clothes on the day of the appointment and wash the bed clothes putting clean ones back on following the treatment.
+													</p><p>
+
+													</p><h3>How to tell if you have mice</h3>
+													<p>
+
+														Mice tend to come out in late evening, and therefore are rarely seen, however you may notice some of the following signs of mouse activity:
+
+													</p>
+													<ul>
+														<li>
+															a musty smell - left from the urine
+														</li>
+														<li>
+															droppings - mice produce around 80 droppings per day
+														</li>
+														<li>
+															scratching noises
+														</li>
+														<li>
+															strong musky odour
+														</li>
+														<li>
+															holes - gnawed in food wrapping, boxes, bags, etc
+														</li>
+														<li>
+															smear marks - due to grease from fur deposits, which are left on habitual mouse runs
+														</li>
+														<ul>
+
+														</ul>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li style="display: none;" id="PESTCONTROL_RATS_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_RATS",
+														fieldName : "RATS",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("RATS", function(value) {
+														$("#PESTCONTROL_RATS").html(value);
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_RATS">
+												<div>
+													INFO FOR RATS
+												</div>
+											</div>
+										</li>
+										<li style="display: none;" id="PESTCONTROL_WASPS_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_WASPS",
+														fieldName : "WASPS",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("WASPS", function(value) {
+														$("#PESTCONTROL_WASPS").html(value);
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div id="PESTCONTROL_WASPS">
+												<div>
+													INFO FOR WASPS
+												</div>
+											</div>
+										</li>
+									</ol>
+								</fieldset>
+							</li>
+							<li id="PESTCONTROL_FIELDEVENTHANDLERFUNCTION_OUTER">
+								<script type="text/javascript">
+									/* <![CDATA[ */
+									(function(helper) {
+										helper.registerSimpleField({
+											fieldID : "PESTCONTROL_FIELDEVENTHANDLERFUNCTION",
+											fieldName : "FIELDEVENTHANDLERFUNCTION",
+											supportShowHide : true
+										});
+									})(PESTCONTROLForm);
+									/* ]]> */
+								</script>
+								<fieldset class="icmvertical">
+									<legend>
+										<span>FIELD EVENT HANDLER FUNCTION</span>
+									</legend>
+									<ol>
+										<li id="PESTCONTROL_PESTOPTION_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_PESTOPTION",
+														fieldName : "PESTOPTION",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("PESTOPTION", function(value) {
+														$("#PESTCONTROL_PESTOPTION").html(helper.utilExpandTemplate(value));
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div class="icmguidance icmguidanceleft" id="PESTCONTROL_PESTOPTION">
+												<p>
+													The following code is entered in the Handler field on the Pest option
+													<br>
+												</p>
+												<p>
+													function ( <b>helper</b>, <b>fieldName</b>, <b>value</b>, <b>valid</b>, <b>eventname</b>)
+													<br>
+													<br>
+													{ if ( value === 'Ants' )
+													<br>
+													{ helper.showField('ANTS');
+													<br>
+													} else
+													<br>
+													{ helper.hideField('ANTS');
+													<br>
+													}
+													<br>
+													if ( value === 'Bedbugs' )
+													<br>
+													{ helper.showField('BEDBUGS');
+													<br>
+													} else
+													<br>
+													{ helper.hideField('BEDBUGS');
+													<br>
+													}
+													<br>
+													if ( value === 'Cockroaches' )
+													<br>
+													{ helper.showField('COCKROACHES');
+													<br>
+													} else
+													<br>
+													{ helper.hideField('COCKROACHES');
+													<br>
+													}
+													<br>
+													if ( value === 'Fleas' )
+													<br>
+													{ helper.showField('FLEAS');
+													<br>
+													} else
+													<br>
+													{helper.hideField('FLEAS');
+													<br>
+													}
+													<br>
+													if ( value === 'Mice' )
+													<br>
+													{ helper.showField('MICE');
+													<br>
+													} else
+													<br>
+													{ helper.hideField('MICE');
+													<br>
+													}
+													<br>
+													if ( value === 'Rats' )
+													<br>
+													{ helper.showField('RATS');
+													<br>
+													} else
+													<br>
+													{ helper.hideField('RATS');
+													<br>
+													}
+													<br>
+													if ( value === 'Wasps' )
+													<br>
+													{ helper.showField('WASPS');
+													<br>
+													} else
+													<br>
+													{ helper.hideField('WASPS');
+													<br>
+													}
+													<br>
+													}
+												</p>
+											</div>
+										</li>
+									</ol>
+								</fieldset>
+							</li>
+							<li id="PESTCONTROL_PAGEINITHANDLER_OUTER">
+								<script type="text/javascript">
+									/* <![CDATA[ */
+									(function(helper) {
+										helper.registerSimpleField({
+											fieldID : "PESTCONTROL_PAGEINITHANDLER",
+											fieldName : "PAGEINITHANDLER",
+											supportShowHide : true
+										});
+									})(PESTCONTROLForm);
+									/* ]]> */
+								</script>
+								<fieldset class="icmvertical">
+									<legend>
+										<span>PAGE INIT HANDLER</span>
+									</legend>
+									<ol>
+										<li id="PESTCONTROL_ONEXIT_OUTER">
+											<script type="text/javascript">
+												/* <![CDATA[ */
+												(function(helper) {
+													helper.registerSimpleField({
+														fieldID : "PESTCONTROL_ONEXIT",
+														fieldName : "ONEXIT",
+														supportShowHide : true
+													});
+													helper.registerFieldUpdateValueFn("ONEXIT", function(value) {
+														$("#PESTCONTROL_ONEXIT").html(helper.utilExpandTemplate(value));
+													});
+												})(PESTCONTROLForm);
+												/* ]]> */
+											</script>
+											<div class="icmguidance icmguidanceleft" id="PESTCONTROL_ONEXIT">
+												<p>
+													The following code is entered in the Init Handler field on the Page Settings option
+													<br>
+												</p>
+												<p>
+													function ( <b>helper</b>, <b>pageName</b>, <b>pageInstance</b>)
+													<br>
+													<br>
+													{ if (helper.queryFieldValue('PAGE1', 'PEST') == 'Ants')
+													<br>
+													{ helper.showField('ANTS');
+													<br>
+													} else { helper.hideField('ANTS');
+													<br>
+													}
+													<br>
+													if (helper.queryFieldValue('PAGE1', 'PEST') == 'Bedbugs')
+													<br>
+													{ helper.showField('BEDBUGS');
+													<br>
+													} else { helper.hideField('BEDBUGS');
+													<br>
+													}
+													<br>
+													if (helper.queryFieldValue('PAGE1', 'PEST') == 'Cockroaches')
+													<br>
+													{ helper.showField('COCKROACHES');
+													<br>
+													} else { helper.hideField('COCKROACHES');
+													<br>
+													}
+													<br>
+													if (helper.queryFieldValue('PAGE1', 'PEST') == 'Fleas')
+													<br>
+													{ helper.showField('FLEAS');
+													<br>
+													} else { helper.hideField('FLEAS');
+													<br>
+													}
+													<br>
+													if (helper.queryFieldValue('PAGE1', 'PEST') == 'Mice')
+													<br>
+													{ helper.showField('MICE');
+													<br>
+													} else { helper.hideField('MICE');
+													<br>
+													}
+													<br>
+													if (helper.queryFieldValue('PAGE1', 'PEST') == 'Rats')
+													<br>
+													{ helper.showField('RATS');
+													<br>
+													} else { helper.hideField('RATS');
+													<br>
+													}
+													<br>
+													if (helper.queryFieldValue('PAGE1', 'PEST') == 'Wasps')
+													<br>
+													{ helper.showField('WASPS');
+													<br>
+													} else { helper.hideField('WASPS');
+													<br>
+													}
+													<br>
+													}
+												</p>
+											</div>
+										</li>
+									</ol>
+								</fieldset>
+							</li>
+						</ol>
+					</div>
+					<script type="text/javascript">
+						/* <![CDATA[ */
+						PESTCONTROLForm.registerPageInitFn(function(helper, pageName, pageInstance) {
+							if (helper.queryFieldValue('PAGE1', 'PEST') == 'Ants') {
+								helper.showField('ANTS');
+							} else {
+								helper.hideField('ANTS');
+							}
+							if (helper.queryFieldValue('PAGE1', 'PEST') == 'Bedbugs') {
+								helper.showField('BEDBUGS');
+							} else {
+								helper.hideField('BEDBUGS');
+							}
+							if (helper.queryFieldValue('PAGE1', 'PEST') == 'Cockroaches') {
+								helper.showField('COCKROACHES');
+							} else {
+								helper.hideField('COCKROACHES');
+							}
+							if (helper.queryFieldValue('PAGE1', 'PEST') == 'Fleas') {
+								helper.showField('FLEAS');
+							} else {
+								helper.hideField('FLEAS');
+							}
+							if (helper.queryFieldValue('PAGE1', 'PEST') == 'Mice') {
+								helper.showField('MICE');
+							} else {
+								helper.hideField('MICE');
+							}
+							if (helper.queryFieldValue('PAGE1', 'PEST') == 'Rats') {
+								helper.showField('RATS');
+							} else {
+								helper.hideField('RATS');
+							}
+							if (helper.queryFieldValue('PAGE1', 'PEST') == 'Wasps') {
+								helper.showField('WASPS');
+							} else {
+								helper.hideField('WASPS');
+							}
+
+						});
+						/* ]]> */
+					</script>
+				</form>
+			</div>
+
+			<footer>
+				<p>
+					&copy; Copyright  by nboor
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
